@@ -1,0 +1,14 @@
+h3{
+    font-size: 30px;
+}
+
+.header{
+    height: 150px;
+    background-image: url(../Images/image.png);
+    background-repeat: none;
+    /* background-size: cover; */
+    background-size: 255px;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    text-align: center;
+}
