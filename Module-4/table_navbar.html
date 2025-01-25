@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="styles/nav.css">
+
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="form.html">Form</a>
+                    <ul class = "dropdown">
+                        <li><a href="video.html">Video</a></li>
+                        <li><a href="form.html">Form</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>HTML Table</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <caption>Employee Details</caption>
+                <tr>
+                    <td>1</td>
+                    <td>Sadib</td>
+                    <td>Haque</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Sahib</td>
+                    <td>Hoque</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Labib</td>
+                    <td>Haque</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total Employee : 3</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+</body>
+</html>

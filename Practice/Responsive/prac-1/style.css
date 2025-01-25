@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+}
+
+body, html{
+    height: 100%;
+}
+
+.container{
+    padding: 15px;
+    height: calc(100% - 30px);
+    display: flex;
+    gap: 15px;
+}
+
+.sub{
+    height: 100%;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one{
+    width: 30%;
+    background-color: gray;
+}
+
+.two{
+    background-color: antiquewhite;
+    width: 70%;
+}
+
+@media screen and (max-width: 576px) {
+    .container{
+        flex-direction: column;
+    }
+    .sub{
+        width: 100%;
+    }
+    .one{
+        height: 30%;
+    }
+    .two{
+        height: 70%;
+    }
+}
